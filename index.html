@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>I-cap</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">I - c a p</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Nosotros</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="carrito.html">Productos</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Productos populares</a></li>
+                                <li><a class="dropdown-item" href="#!">Nuevos productos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button id="carrito" class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrito
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5" style="background-image: url(imagine/imag1.jpeg);">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in Cap</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Gorras lifestyle</p>
+                </div>
+            </div>
+        </header>
+        <div class="boton">
+            <a class="btn btn-primary" href="#item1">Mision</a>
+            <a class="btn btn-primary" href="#item2">Vision</a>
+            <a class="btn btn-primary" href="#item3">Objetivo</a>
+            <a class="btn btn-primary" href="#item4">Redes Sociales</a>
+            <a class="btn btn-primary" href="#item5">Formulario de contacto</a>
+        </div>
+
+        <div class="container text-left">
+            <section class="item1" id="item1">
+              <div class="row">
+                <div class="col">
+                  <img style="width: 80%;" src="/imagine/mision.png">
+                </div>
+                <div class="col-6">
+                  <div>
+                      <h2 style="color: #5e5efe; margin-top: 50px;">Mision</h2>
+                      <p class="contenido">Ofrecer a nuestros clientes  productos de calidad, a precios cómodos  que cumplan con sus necesidades y exigencias, abarcando sus gustos de acuerdo a su estilo de ver y vivir la vida.</p>
+                      <button id="conoce"  onclick="mayor()">CONOCE MAS</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr>
+    
+            <section class="item2" id="item2">
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                        <h2 style="color: #5e5efe;">Vision</h2>
+                        <p class="contenido">Ser una empresa  líder y reconocida en la venta de ropa de gorras, lograr también extendernos y crear  nuestras cadenas de almacenes,   proporcionando cada día más un servicio de excelencia a nuestros clientes y que al mismo tiempo nos permitan competir en el mercado nacional con los mejores precios del mercado.</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <img style="width: 50%; margin-left: 200px;" src="/imagine/vision.png" alt="">
+                  </div>
+                </div>
+            </section>
+            <hr>
+    
+            <section class="item3" id="item3">
+              <div class="row">
+                <div class="col-6">
+                    <img style="width: 60%; margin-left: 100px;" src="/imagine/objetivo.png">
+                </div>
+                <div class="col">
+                    <h2 style="color: #5e5efe">Objetivo</h2>
+                    <p class="contenido">Ofrecer gorras de mejor calidad satisfaga las  necesidades y gustos del mercado potencial, vender ropa a la moda que cumpla con los requerimientos de estilo en el segmento  del mercado.</p>
+                </div>
+              </div>
+            </section>
+            <hr>
+    
+            <section class="item4" id="item4">
+              <div class="row">
+                <div class="col">
+                    <h2 style="color: #5e5efe; margin-top: 40px;">Redes sociales</h2>
+                    <p class="contenido">Encuentros en nuestras redes sociales como I_cap_oficial</p>
+                    <ul>
+                      <li>Facebook</li>
+                      <li>Instagram</li>
+                      <li>YouTube</li>
+                      <li>WhatsApp</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <img style="width: 60%; margin-left: 70px;" src="/imagine/redes.png">
+                </div>
+              </div>
+            </section>
+            <hr>
+        </div>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-darkg">
+            <div class="container"><p class="m-0 text-center text-white">I-Cap &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/carrito.js"></script>
+        <script src="js/pedido.js"></script>
+
+    </body>
+</html>
